@@ -30,6 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   
   <body>
   <h1>这是一个master分支</h1>
+
   	<h3>医生信息</h3>
   	<a href = "welcome.jsp" id = "main">回主页</a>
    		<form method = "post" action = "managerAction">

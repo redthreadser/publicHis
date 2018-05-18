@@ -23,6 +23,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   </head>
   <body>
   <div id="wrapper">
+   <a href = "welcome.jsp" id = "main">回主页</a>
   <a href = "welcome.jsp" id = "main">回主页</a>
   	<div id="left">
 		<p>部门：${dapartment } <span>医生: ${u_name}</span> </p>

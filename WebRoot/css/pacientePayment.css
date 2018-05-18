@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Times New Roman", "黑体";
+}
+
+a {
+	text-decoration: none;
+	font-size: 14px;
+	color: #333;
+}
+
+input {
+	padding-left: 10px;
+	border-radius: 5px;
+}
+
+body {
+	background: #a7cbf1;
+}
+
+.wrapper {
+	margin: 20px auto;
+	position: relative;
+}
+
+.RegWelcom {
+	width:300px;
+	margin:50px 0 0 50px;
+}
+
+.RegWelcom a {
+	display: block;
+	margin-bottom: 50px;
+	text-decoration: none;
+	width: 97px;
+}
+
+.RegWelcom a img {
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 97px;
+	height: 97px;
+}
+
+.RegWelcom a span {
+	text-align: center;
+	width: 97px;
+	display: block;
+	height: 30px;
+	font: 16px/30px "";
+}
+
+.payment {
+	background: rgba(255, 255, 255, 0.9);
+	position: absolute;
+	top: 20px;
+	left: 360px;
+	border-radius: 5px;
+	padding: 50px;
+	width: 700px;
+	overflow: hidden;
+	margin: 0 auto;
+	height: 400px;
+}
+
+.selectP {
+	width: 250px;
+	margin: 10px 0;
+	margin-left: 50px;
+	overflow: hidden;
+	clear: both;
+}
+
+.selectP span {
+	float: left;
+	width: 60px;
+	height: 25px;
+	font-size: 13px;
+	line-height: 26px;
+	text-align: center;
+}
+
+.selectP input {
+	float: left;
+	width: 180px;
+	padding: 5px 0;
+	font-size: 14px;
+}
+
+.pacienteMess {
+	overflow: hidden;
+	clear: both;
+	height: 150px;
+	position: relative;
+}
+
+.p_name,.p_sex,.p_age,.p_tel,.extraMoney {
+	width: 250px;
+	margin-bottom: 10px;
+	position: absolute;
+	overflow: hidden;
+	clear: both;
+}
+
+.p_name {
+	top: 20px;
+	left: 50px;
+}
+
+.p_sex {
+	top: 20px;
+	left: 450px;
+}
+
+.p_age {
+	top: 100px;
+	left: 50px;
+}
+
+.p_tel {
+	top: 100px;
+	left: 450px;
+}
+
+.extraMoney {
+	top: 350px;
+	left: 100px;
+}
+
+.p_name span,.p_sex span,.p_age span,.p_tel span,.extraMoney span {
+	float: left;
+	width: 60px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+#p_name,#p_sex,#p_age,#p_tel,#extraMoney {
+	float: left;
+	width: 180px;
+	height: 30px;
+	border: 1px solid black;
+	border-radius: 2px;
+}
+
+.sub input {
+	float: right;
+	border: none;
+	width: 130px;
+	height: 50px;
+	font-size: 18px;
+	color: #fff;
+	border-radius: 5px;
+	background-color: #61d1ed;
+	margin-right: 70px;
+	margin-top: 20px;
+}
+
+.sub input:hover {
+	background: #58bded;
+}

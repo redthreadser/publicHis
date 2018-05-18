@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+ *{margin:0px;padding:0px;}
+ body{background: url("../images/back.jpg") no-repeat ;background-size:cover;}
+ li{list-style:none;}
+ div.form{ position: absolute;right: 20px;top:140px;width:400px;}
+ div.form span{width:80px;display:block;height:50px;font:20px/50px "";float:left;}
+ div.form input{height: 50px;width:280px;margin-bottom: 12px;padding-left: 20px;font:20px/50px ""; color: #ababab;}
+ div.form .btn{height:55px;width:280px;margin: 5px 0 0 80px;padding:0;text-align: center;font: 22px/55px "";color: #fff;background:#3285ff;
+        border-radius: 10px;}

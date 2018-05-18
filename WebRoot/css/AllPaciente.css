@@ -1,0 +1,275 @@
+ * {
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+body {
+	margin: 0 auto;
+	text-align: center;
+	background:rgba(0,128,255,0.3);
+}
+
+#wrapper {
+	width: auto;
+	height:auto;
+	margin: 30px auto;
+}
+#main{float:right;}
+#left { 
+	float: left;
+	width: 30%;
+	height: 80%;
+	text-align: left;
+}
+
+#left p {
+	width:100%;
+	height: auto;
+	font-size: 20px;
+}
+
+#left p span {
+	display:block;
+}
+
+#left ul{
+	width:100%;
+	height:auto;
+}
+#left ul #first span {
+	height: 30px;
+	font: 14px/30px "";
+}
+
+
+#left table {
+	width: 100%;
+	text-align: center;
+}
+
+#left tr {
+	height: auto;
+	width: 50%;
+}
+
+#right {
+	float:right;
+	width: 63%;
+	height: 80%;
+	padding:3%;
+	margin-left:1%;
+	background:#fff;
+}
+
+#wrapper {
+	clear: both;
+	content: '';
+	display: inline-block;
+}
+
+#right h2 {
+	height: 40px;
+	font: 600 24px/40px "";
+	margin-bottom: 10px;
+}
+
+#right #p_info {
+	width: 960px;
+	position: relative;
+	font: 500 16px/35px "";
+	text-align: left;
+	margin-bottom: 7px;
+}
+
+#right #p_info input {
+	margin-right: 120px;
+	height: 25px;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+
+#right #p_info span {
+	padding-right: 20px
+}
+
+#right #p_info .p_number {
+	height: 35px;
+}
+
+#right #p_info .p_sex {
+	height: 35px;
+}
+
+#right #p_info .p_tel {
+	height: 35px;
+}
+
+#right #record {
+    text-align: left; 
+	margin-bottom: 7px;
+}
+
+#right #record ul {
+	position: relative;
+	height: 110px;
+}
+
+#right #record ul li {
+	height: 35px;
+	margin-bottom: 5px;
+} 
+
+#right #record ul li:nth-child(2) {
+	position: absolute;
+	right:0px;
+	top: 0px;
+	width:20%;
+}
+
+#right #record ul li span {
+	display: block;
+	float: left;
+	height: 35px;
+	font: 500 16px/35px "";
+}
+
+#right #record ul li textarea {
+	height: 35px;
+	padding-left: 10px;
+	font: 500 16px/35px "";
+	width: 60%;
+	border-radius: 5px;
+} 
+
+#right #record ul li #illness {
+	height: 35px;
+	border-radius: 5px;
+}
+
+#right #record ul li .sub {
+	position: absolute;
+	right: 20px;
+	top: 80px;
+	width: 100px;
+	height: 35px;
+	border-radius: 5px;
+}
+#right #record ul li #update{
+	right: 120px;
+	top: 80px;
+	
+}
+底部导航
+#right #button_content {
+	width: 80px;
+	height: auto;
+}
+
+#right #button_content button {
+	text-align: center;
+	height: 35px;
+	font: 600 16px/35px "";
+	color: #444;
+	width: 100px;
+	line-height:35px;
+	border-radius: 10px;
+}
+
+#right #button_content #drug {
+	margin-top: 10px;
+}
+
+#right #button_content #drug table {
+	width: 95%;
+	text-align: center;
+}
+
+#right #button_content #drug table td {
+	height: 30px;
+	font: 16px/30px "";
+}
+
+#right #button_content #drug table tr:nth-child(2) td.no {
+	background: #84a4c6;
+}
+
+#right #button_content #drug table td input {
+	width: 50px;
+	text-align: center;
+	background: #fff;
+}
+
+#right #button_content #drug table td input.drug_name_1 {
+	width: 100px;
+}
+
+药品名称 开具检查单ex_card  
+#right #ex_card {
+	width:  95%;
+}
+
+#right #ex_card h4 {
+	height: 30px;
+	font: 500 16px/30px "";
+}
+
+#right #ex_card table {
+	width:  95%;
+	text-align: center;
+	background: #eee;
+}
+
+#right #ex_card table td {
+	height: 30px;
+}
+
+#right #ex_card table input {
+	border: none;
+}
+
+#right #ex_card table #ex_price {
+	width: 40px;
+}
+
+#right #ex_card table #ex_name {
+	width: 200px;
+}
+检查结果examine_result
+#right #examine_result {
+	width:  95%;
+	position: relative;
+}
+
+#right #examine_result h4 {
+	height: 30px;
+	font: 500 16px/30px "";
+}
+
+#right #examine_result table {
+	width: 750px;
+	text-align: center;
+	background: #eee;
+}
+
+#right #examine_result table td {
+	height: 30px;
+}
+
+.button_brg{
+	background: #0ff;
+}
+#ex_card .show_c {
+	width: 50px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}

@@ -1,0 +1,117 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family: "Times New Roman", "黑体";
+}
+body {
+	background: rgba(0,128,255,0.3);
+}
+.wrapper{
+
+	position: relative;
+}
+.RegWelcom {
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+
+.RegWelcom a {
+	display: block;
+	margin-bottom: 50px;
+	text-decoration: none;
+	width: 97px;
+}
+
+.RegWelcom a img {
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	width: 97px;
+	height: 97px;
+}
+
+.RegWelcom a span {
+	text-align: center;
+	width: 97px;
+	display: block;
+	height: 30px;
+	font: 16px/30px "";
+}
+.costShow{
+	width:900px;
+	margin:50px 350px;
+	position: relative;
+	float:left;
+	height:500px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius:5px;
+}
+.costShow h1{
+	position: absolute;
+	top:10px;
+	left:400px;
+}
+.p_number{	
+	position: absolute;
+	top:90px;
+	left:50px;
+}
+.p_number span{
+	float: left;
+	width: 60px;
+	height: 25px;
+	font-size: 15px;
+	line-height: 26px;
+	text-align: center;
+}
+.p_number input{
+	padding-left: 10px;
+	border-radius: 5px;
+	float: left;
+	width: 180px;
+	padding: 5px 0;
+	font-size: 14px;
+}
+.p_name{
+	width:120px;
+	position: absolute;
+	top:95px;
+	right:10px;
+}
+.p_name span{
+	float: left;
+	height: 25px;
+	font-size: 15px;
+	line-height: 25px;
+}
+.title{
+	position: absolute;
+	top:125px;
+	left:50px;
+}
+.content{
+	position: absolute;
+	top:150px;
+	left:50px;
+}
+table{
+	border-collapse:collapse;
+	width:800px;
+	text-align:center;
+}
+table tr td{
+	height:25px;
+}
+table .project{
+	width:300px;
+}
+table .price{
+	width:100px;
+}
+table .time{
+	width:250px;
+}
+table .option{
+	width:80px;
+}

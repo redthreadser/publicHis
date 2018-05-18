@@ -1,0 +1,21 @@
+body {
+	background: url("../images/main.jpg") no-repeat;
+	background-size: cover;
+}
+
+.wrapper {
+	margin: 40px 100px;
+}
+
+a {
+	display: inline-block;
+	text-align: center;
+	margin-right: 100px;
+	text-decoration: none;
+}
+
+img {
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}

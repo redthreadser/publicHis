@@ -1,0 +1,18 @@
+@CHARSET "UTF-8";
+*{margin:0px;padding:0px;}
+table{border-collapse:collapse;}
+#wrapper{margin:20px auto;position:relative;text-align:center;}
+#wrapper .allPatiente{position:absolute;top:30px;left:30px;width:400px;height:500px;}
+#wrapper .allPatiente h2{line-height:40px;}
+#wrapper .allPatiente table{width:400px;text-align:center;}
+#wrapper .allPatiente table tr{height:30px;}
+#wrapper .main{width:800px;height:200px;position:absolute;top:10px;left:500px;}
+#wrapper .main h1{font:30px/70px "";}
+#wrapper .main ul{margin-bottom:20px;}
+#wrapper .main ul li{list-style:none;width:130px;display:inline-block;margin-right:20px;}
+
+#wrapper .main .project_name{width:800px;height:400px;border:1px solid black;}
+#wrapper .main .project_name table{width:800px;text-align:center;}
+#wrapper .main .project_name table tr{height:45px;}
+
+
